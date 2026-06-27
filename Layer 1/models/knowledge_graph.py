@@ -1,4 +1,6 @@
-from sqlalchemy import create_engine, Column, Integer, String
+# File creates a model for a Knowledge Graph i
+
+from sqlalchemy import Column, Integer, String
 from sqlalchemy import DateTime
 from db.base import Base
 

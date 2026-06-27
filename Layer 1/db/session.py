@@ -1,3 +1,5 @@
+# File is used to create a persistent session
+
 from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
 from sqlalchemy.orm import sessionmaker
 import os
@@ -8,11 +10,11 @@ DATABASE_URL = os.getenv("DATABASE_URL",
           )
 
 
-# async engine
+# create the async engine
 engine = create_async_engine(
     DATABASE_URL, 
     echo = True, 
-    future=True
+    future = True
 )
 
 # create async session

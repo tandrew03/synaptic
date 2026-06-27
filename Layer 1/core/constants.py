@@ -1,3 +1,5 @@
+# File is used to store constants accross Synaptic 
+
 # indicate which file types Synaptic can ingest from user.
 ALLOWED_FILE_TYPES = {"application/pdf", "image/jpeg", "image/png", "image/webp", "text/plain"}
 

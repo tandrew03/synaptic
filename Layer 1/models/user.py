@@ -1,3 +1,5 @@
+# File creates a model for what a User should look like in the Users table
+
 from sqlalchemy import create_engine, Column, Integer, String
 from sqlalchemy import DateTime
 from db.base import Base
